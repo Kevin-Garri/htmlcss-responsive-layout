@@ -64,3 +64,15 @@
   }
 
 }
+
+/*****bonus****/
+
+@media screen and (min-width:576) {
+  .presentation img {
+    float: left;
+    margin: 10px 10px 10px 0;
+  }
+
+  .social-networks button {
+    flex-basis: 20%;
+  }
