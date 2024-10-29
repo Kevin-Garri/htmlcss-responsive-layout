@@ -31,3 +31,36 @@
     display: block;
   }
 }
+
+/***********DESKTOP*********/
+
+@media screen and (min-width:992px) {
+  .recipe-title {
+    font-size: 1.8rem;
+  }
+
+  .quick-notes ul {
+    display: block;
+  }
+
+  .recipe-card {
+    display: flex;
+  }
+
+  .recipe-video {
+    flex-basis: 70%;
+    max-height: 420px;
+  }
+
+  .social-networks .label {
+    display: inline;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+}
